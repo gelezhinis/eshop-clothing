@@ -10,6 +10,11 @@
    top: 80px;
    right: 0;
    z-index: 5;
+   
+   .empty-message {
+      font-size: 18px;
+      margin: 15px auto;
+   }
 
    .cart-items {
       height: 240px;
@@ -21,4 +26,9 @@
    button {
       margin-top: auto;
    }
+
+}
+
+.empty-cart-dropdown {
+   height: 100px;
 }
